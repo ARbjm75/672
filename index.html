@@ -42,12 +42,12 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 <body onload="if(localStorage.cached672=='yes')setTimeout(load_goldhen24,50);" style='background-color:black'>
 <div id=ScrOverlay class=cacheUPDbg><pre id=cacheUPDtxt class=cacheUPD></pre>
 <div id=CacheProgress><div id=CacheBar></div></div></div>
-<span id="clock" ></span><span id="date" ></span><h2 style='font-size:50px;text-align:center;text-shadow: 4px 4px 4px  white;color:1cf606;'><a class="button" style="color: 0d2be3;text-shadow: 4px 4px 4px black;font-size:60%; font-weight: bold;">BERHASIL = <span id=passCounter></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AR Playstation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  class="button2" style="color: red;text-shadow: 4px 4px 4px black;font-size:60%; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GAGAL = <span id=failCounter></span> </a>
+<span id="clock" ></span><span id="date" ></span><h2 style='font-size:50px;text-align:center;text-shadow: 4px 4px 4px  white;color:rgb(248, 4, 4);'><a class="button" style="color: 0d2be3;text-shadow: 4px 4px 4px black;font-size:60%; font-weight: bold;">BERHASIL = <span id=passCounter></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~ AR PLAYSTATION ~&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  class="button2" style="color: rgb(7, 231, 74);text-shadow: 4px 4px 4px black;font-size:60%; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GAGAL = <span id=failCounter></span> </a>
 <br>
 <br>
 <br>
 <br>
-<h2 id=msgs2 style='font-size:40px;text-align:center;text-shadow: 4px 4px 4px white;color:blue;'>~ TERIMAKASIH !!! ~</h2>
+<h2 id=msgs2 style='font-size:35px;text-align:center;text-shadow: 4px 4px 4px rgb(247, 4, 4);color:rgb(243, 240, 240);'>~ TERIMAKASIH !!! ~</h2>
 <div style="text-align:center"  id="MyItems">
 <br>
 <br>
@@ -64,7 +64,7 @@ window.failCounter.innerHTML=localStorage.failcount;
 
 function load_goldhen24() {
 PLfile='goldhenv2.4b18.5.bin';
-msgs2.innerHTML="TUNGGUI SETUMAT SANAK AE !!!"; LoadedMSG="Alhamdulillah BERHASIL";
+msgs2.innerHTML="TUNGGUI SETUMAT SANAK AE !!!"; LoadedMSG="TERIMAKASIH AR Playstation";
 setTimeout(function(){var script = document.createElement('script');script.src ="exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);},3000);
 setTimeout(jailbreak,500);
 }

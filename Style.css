@@ -5,7 +5,7 @@ font-size:20px;
 font-weight:lighter;
 text-align:left;
 color:#FFFFFF;
-background: url(ar.png);
+background: url(AR.jpg);
 background-position: center;
 background-size:cover;
 background-attachment: fixed;
@@ -169,7 +169,7 @@ header div{
   position:absolute;bottom:0px;
  }
  .title {
-  font-size:40px;
+  font-size:55px;
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -509,9 +509,9 @@ font-family:sans-serif;font-size:32px;text-shadow: 4px 4px 4px black;text-align:
 }
 #msgs2 {
  font-weight:bold;
- text-shadow: 4px 4px 4px blue;
+ text-shadow: 4px 4px 4px black;
 
- font-size:35px;
+ font-size:30px;
 }
 .pointer {cursor: pointer;}
 
